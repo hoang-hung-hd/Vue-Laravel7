@@ -1,0 +1,14 @@
+@tailwind preflight;
+@tailwind components;
+@tailwind utilities;
+
+a {
+    text-decoration: none;
+}
+.container {
+    max-width: 920px;
+}
+
+.section {
+    @apply .px-8;
+}
